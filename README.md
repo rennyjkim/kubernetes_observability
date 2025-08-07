@@ -83,13 +83,3 @@ metadata:
 kubectl apply -f manifests/grafana-dashboard-cm.yaml
 ```
 --
-
-## 🔹 Project Structure
-```
-minikube-observability/
-├── README.md
-├── helm-values/          
-├── grafana-dashboards/          
-├── manifests/                   # Kubernetes YAMLs
-└── scripts/  
-
